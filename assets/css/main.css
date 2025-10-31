@@ -92,7 +92,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
   vertical-align: baseline;
 }
 
@@ -231,8 +231,10 @@ body,
 input,
 select,
 textarea {
-  font-family: "Roboto", Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   line-height: 1.65;
   font-size: 1em;
   color: #aaa;
